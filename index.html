@@ -4,33 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Practice</title>
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <a href="./index.html"> <img src="./images/logo.svg" alt="logotype" />Appello</a>
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Process</a></li>
-          <li><a href="">Team</a></li>
-          <li><a href="">Resources</a></li>
-        </ul>
-      </nav>
-      <button type="button">Get project quote</button>
+    <header class="header">
+      <div class="container header-container">
+        <a class="header-logo" href="./index.html">
+          <img class="header-logo-img" src="./images/logo.svg" alt="logotype" />Appello</a
+        >
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-list-item"><a class="header-nav-link" href="">Home</a></li>
+            <li class="header-nav-list-item"><a class="header-nav-link" href="">Portfolio</a></li>
+            <li class="header-nav-list-item"><a class="header-nav-link" href="">Process</a></li>
+            <li class="header-nav-list-item"><a class="header-nav-link" href="">Team</a></li>
+            <li class="header-nav-list-item"><a class="header-nav-link" href="">Resources</a></li>
+          </ul>
+        </nav>
+        <button class="header-nav-button" type="button">Get project quote</button>
+      </div>
     </header>
     <main>
       <!-- Hero -->
-      <section>
-        <h1>Leaders in Software Design & Development</h1>
-        <p>
-          Establishing a technology company takes a strong software team to deliver on what needs to
-          be done.
-        </p>
-        <a href="">View our work</a>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">Leaders in Software Design & Development</h1>
+          <p class="hero-subline-text">
+            Establishing a technology company takes a strong software team to deliver on what needs
+            to be done.
+          </p>
+          <a class="hero-link" href="">View our work</a>
+        </div>
       </section>
+
       <!-- About us -->
       <section>
         <h2>Your reliable web and app development partner</h2>

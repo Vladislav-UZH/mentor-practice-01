@@ -1,0 +1,124 @@
+:root {
+  /* Text-color */
+  --main-gray-text-color: #737373;
+  --main--black-headline-text-color: #000000;
+  --main-white-text-color:#FFFFFF;
+}
+
+/* Base styles */
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #ccc;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.container{
+    width: 1190px;
+    margin-left:auto ;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* header */
+
+.header{
+    color: var(--main-white-text-color);
+    padding-top: 50px;
+}
+.header-logo{
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    color: var(--main-white-text-color);
+}
+.header-logo-img{
+    margin-right: 8px;
+}
+.header-nav-link{
+    padding-bottom:30px;
+    padding-top: 30px;
+    color: var(--main-white-text-color);
+    font-size: 13px;
+    line-height: calc(30 / 13);
+}
+.header-nav-button{
+    margin-left: 52px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--main-white-text-color);
+    line-height: calc(13 / 16);
+    cursor: pointer;
+}
+
+.header-container{
+ display: flex;
+ align-items: center;
+
+}
+
+.header-nav-list{
+    display: flex;
+    gap: 50px;
+}
+
+/*  MAIN */
+
+/* hero-section */
+.hero{
+    padding-top: 240px;
+    padding-bottom: 270px;
+}
+.hero-title{
+    max-width: 425px;
+    margin-bottom: 35px;;
+    font-size: 42px;
+    line-height: calc(50 / 42);
+    color: var(--main-white-text-color);
+    font-weight: 400;
+    
+}
+.hero-subline-text{
+    max-width: 425px;
+    margin-bottom: 35px;
+    font-size: 11px;
+    line-height: calc(30 / 11);
+    color: var(--main-white-text-color);
+}
+
+.hero-link{
+    padding-left: 37px;
+    padding-right: 37px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: inline-block;
+    background-color: #0A8BFE;
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: calc(30 / 15);
+    color: var(--main-white-text-color);
+    
+
+}
+
